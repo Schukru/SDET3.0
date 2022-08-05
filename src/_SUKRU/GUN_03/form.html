@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+	<title>Form</title>
+</head>
+
+<body bgcolor="lightblue">
+<h1>Form Elemanları</h1>
+
+<img src="logo.png" width="100px">
+
+<br>
+<br>
+<form action="/someUrl" method="GET">
+    Username: <input type="text" id="username" value="alaaml"/><br/>
+    Password: <input type="password" id="password" /><br/>
+    <input type="submit" value="gönder"/>
+</form>
+
+
+<form>
+
+    isim: <input type="text" value="Şükrü">açıklama gerekiyorsa yaz</input><br>
+    soyisim: <input type="text" value="Kılıç"/><br>
+    sifre: <input type="password"/><br>
+
+    Açıklama: <textarea cols="30" rows="5">açıklama</textarea><br>
+
+    Ehliyet: <input type="checkbox"/><br>
+
+    Cinsiyet: Erkek<input type="radio" name="cinsiyet"/>
+              Bayan<input type="radio" name="cinsiyet"/><br>
+
+
+    Evli misiniz: Evet<input type="radio" name="evlilik"/>
+                  Hayır<input type="radio" name="evlilik"/><br>
+
+
+    Eğitim: <select id="eğitim">
+              <option value="0">Seçiniz</option>
+              <option value="1">Üniversite</option>
+              <option value="2">Lise</option>
+              <option value="3">İlkokul</option>
+            </select>
+              
+            <br>
+            <br>
+            <br>
+
+    <input type="submit" value="   Gönder  "/>
+
+    <input type="radio" id="huey" name="drone" value="huey" checked>
+        <label for="huey">Huey</label>
+    <input type="radio" id="dewey" name="drone" value="dewey">
+        <label for="dewey">Dewey</label>
+
+
+</form>
+
+
+
+
+
+</body>
+
+</html>
